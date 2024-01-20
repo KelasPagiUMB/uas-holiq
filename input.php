@@ -12,7 +12,6 @@ if (!empty($_POST['save'])) {
     } else {
         echo mysqli_error($koneksi);
     }
-
 }
 ?>
 <!DOCTYPE html>
@@ -30,6 +29,7 @@ if (!empty($_POST['save'])) {
         <div class="col-lg-6 col-md-8 col-sm-10 col-12">
             <div class="card">
                 <div class="card-body">
+                    <a href="./index.php">Kembali</a>
                     <h2 class="text-center">Input SKS</h2>
                     <form method="post">
                         <div class="mb-3">

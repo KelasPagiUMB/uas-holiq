@@ -16,6 +16,7 @@ include './koneksi.php';
         <div class="col-lg-6 col-md-8 col-sm-10 col-12">
             <div class="card">
                 <div class="card-body">
+                    <a href="./input.php">Tambah Data</a>
                     <h2 class="text-center">Daftar Data</h2>
                     <table class="table">
                         <thead>
